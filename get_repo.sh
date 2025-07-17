@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-
+RELEASE_VERSION=1.70.2
 # git workaround
 if [[ "${CI_BUILD}" != "no" ]]; then
   git config --global --add safe.directory /__w/vscodium/vscodium
