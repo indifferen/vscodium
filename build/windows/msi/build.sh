@@ -9,8 +9,8 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 WIN_SDK_MAJOR_VERSION="10"
 WIN_SDK_FULL_VERSION="10.0.17763.0"
 
-PRODUCT_NAME="VSCodium"
-PRODUCT_SKU="vscodium"
+PRODUCT_NAME="Vibe"
+PRODUCT_SKU="vibe"
 PRODUCT_ID=$( powershell.exe -command "[guid]::NewGuid().ToString().ToUpper()" )
 PRODUCT_ID="${PRODUCT_ID%%[[:cntrl:]]}"
 
