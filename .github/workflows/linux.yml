@@ -6,8 +6,8 @@ on:
       new_release:
         type: boolean
         description: Force new Release
-  schedule:
-    - cron: '0 0 * * *'
+  # schedule:
+  #   - cron: '0 0 * * *'
   push:
     branches: [ master ]
   pull_request:
